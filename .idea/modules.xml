@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/crudmojicar-new.iml" filepath="$PROJECT_DIR$/.idea/crudmojicar-new.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/crud-mojicar.iml" filepath="$PROJECT_DIR$/.idea/crud-mojicar.iml" />
     </modules>
   </component>
 </project>
