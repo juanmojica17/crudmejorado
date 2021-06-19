@@ -1,0 +1,165 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url("./fondo a editar.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color:darkslategray;
+
+}
+.image{
+    opacity: 70%;
+    width: 100%;
+}
+.container {
+    width: 90%;
+    margin: auto;
+    padding: 10px;
+    font-family: "Roboto", sans-serif;
+}
+
+/* TÍTULO DE LA APP */
+
+.title {
+    background-color: gray;
+    color: white;
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    font-size: 30px;
+}
+
+.mitad{
+    display: flex;
+}
+
+.formulario{
+    width: 100%;
+}
+.imageformulario{
+    width: 100%;
+}
+
+/* FORMULARIOS PARA AGREGAR USUARIO */
+
+#addUser {
+    width: 70%;
+    margin: auto;
+    margin-top: 30px;
+    padding: 10px;
+    color: white;
+}
+
+.addUser {
+    width: 100%;
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    box-sizing: border-box;
+}
+
+.field {
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+}
+
+.field label {
+    margin-bottom: 10px;
+    font-weight: lighter;
+}
+
+.field input {
+    border: 1px solid #afb5b9;
+    padding: 10px;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+
+.submitBtn,
+.updateBtn {
+    width: 33%;
+    padding: 10px;
+    border: none;
+    background-color: gray;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 16px;
+    margin-top: 20px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border: #ffd400;
+}
+
+.updateBtn {
+    display: none;
+
+}
+
+/* LISTA DE USUARIOS */
+
+.userList {
+    width: 70%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.userItem {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.userInfo {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.actions {
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.actions button {
+    width: 45%;
+    border: none;
+    padding: 10px;
+    color: #fff;
+}
+
+.update {
+    background-color: dimgrey;
+    border: solid yellow 10px;
+
+}
+
+.delete {
+    background-color: slategray;
+
+}
+
+.deleteBtn{
+
+}
+
+h4{
+    color: white;
+}
+.space{
+    height: 20px;
+}
